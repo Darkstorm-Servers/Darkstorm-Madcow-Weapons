@@ -19,8 +19,8 @@ function ENT:Initialize()
 
 	// 150 particles per second during 30 seconds
 	-- WHAT THE ACTUAL FUCK!
-	for i = 1, 150 do 
-		timer.Simple(i / 60, function()
+	for i = 1, 1500 do 
+		timer.Simple(i / 150, function()
 			if not IsValid(self.Entity) then return end
 			
 			local vOffset 	= self.Entity:LocalToWorld(Vector(0, 0, self.Entity:OBBMins().z))
