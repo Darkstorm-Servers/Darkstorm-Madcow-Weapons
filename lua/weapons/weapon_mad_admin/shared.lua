@@ -16,14 +16,14 @@ SWEP.Base 				= "weapon_mad_base_sniper"
 SWEP.ViewModel			= "models/weapons/c_shotgun.mdl"
 SWEP.WorldModel			= "models/weapons/w_shotgun.mdl"
 SWEP.HoldType				= "ar2"
-SWEP.Spawnable			= true
+SWEP.Spawnable			= false 
 SWEP.AdminSpawnable		= true
 SWEP.Category			= "Mad Cows Weapons"
 SWEP.UseHands			= true
 
 SWEP.Primary.Sound 		= Sound("NPC_Sniper.FireBullet")
-SWEP.Primary.Recoil		= 0.1
-SWEP.Primary.Damage		= 100
+SWEP.Primary.Recoil		= 0
+SWEP.Primary.Damage		= 1000
 SWEP.Primary.NumShots		= 1
 SWEP.Primary.Cone			= 0
 SWEP.Primary.Delay 		= 0.1
@@ -35,7 +35,7 @@ SWEP.Primary.Ammo			= "none"
 
 SWEP.Secondary.ClipSize		= -1					// Size of a clip
 SWEP.Secondary.DefaultClip	= -1					// Default number of bullets in a clip
-SWEP.Secondary.Automatic	= false				// Automatic/Semi Auto
+SWEP.Secondary.Automatic	= true				// Automatic/Semi Auto
 SWEP.Secondary.Ammo		= "none"
 
 SWEP.ShellEffect			= "effect_mad_shell_pistol"	// "effect_mad_shell_pistol" or "effect_mad_shell_rifle" or "effect_mad_shell_shotgun"
