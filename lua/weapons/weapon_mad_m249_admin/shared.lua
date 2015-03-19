@@ -18,8 +18,8 @@ SWEP.Primary.NumShots		= 1
 SWEP.Primary.Cone			= 0.03
 SWEP.Primary.Delay 		= 0.01
 
-SWEP.Primary.ClipSize		= -1					// Size of a clip
-SWEP.Primary.DefaultClip	= -1					// Default number of bullets in a clip
+SWEP.Primary.ClipSize		= 9999					// Size of a clip
+SWEP.Primary.DefaultClip	= 9999					// Default number of bullets in a clip
 SWEP.Primary.Automatic		= true				// Automatic/Semi Auto
 SWEP.Primary.Ammo			= "none"
 
