@@ -20,7 +20,7 @@ SWEP.Primary.Delay 		= 0.5
 SWEP.Primary.ClipSize		= -1					// Size of a clip
 SWEP.Primary.DefaultClip	= 1					// Default number of bullets in a clip
 SWEP.Primary.Automatic		= true				// Automatic/Semi Auto
-SWEP.Primary.Ammo			= "ammo_knife"
+SWEP.Primary.Ammo			= "ammo_crossbow"
 
 SWEP.Secondary.ClipSize		= -1					// Size of a clip
 SWEP.Secondary.DefaultClip	= -1					// Default number of bullets in a clip

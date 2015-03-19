@@ -81,6 +81,6 @@ function ENT:Use(activator, caller)
 	
 	if (activator:IsPlayer()) then
 		// Give the collecting player some free health
-		activator:GiveAmmo(20, "ammo_556x39")
+		activator:GiveAmmo(500, "ammo_556x39")
 	end
 end
