@@ -277,7 +277,6 @@ function SWEP:SetIronsights(b)
 	
 	if (b) then
 		timer.Simple(IRONSIGHT_TIME,function() 
-			if not IsValid(self.Owner) then return end
 			if (not IsFirstTimePredicted() or not self.Owner:Alive())then return end
 			self:SetScope(true,player) 
 		end)
